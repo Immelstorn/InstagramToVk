@@ -1,0 +1,10 @@
+﻿<Window x:Class="InstagramToVK.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="InstagramToVK" Height="347" Width="299" Loaded="WindowLoaded" StateChanged="WindowStateChanged" Closing="WindowClosing" Background="#FFE9EBF0" WindowStyle="SingleBorderWindow" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+    <Grid Height="300" Width="280">
+        <Button Content="Start" Height="23" HorizontalAlignment="Left" Margin="16,12,0,0" Name="btnDo" VerticalAlignment="Top" Width="111" Visibility="Visible" Click="BtnDoClick"/>
+        <Button Content="Close" Height="23" HorizontalAlignment="Left" Margin="157,12,0,0" Name="btnClose" VerticalAlignment="Top" Width="111" Click="BtnCloseClick" IsEnabled="False" />
+        <Image Height="259" HorizontalAlignment="Center" Margin="12,41,12,0" Name="imgLastImage" Stretch="Fill" VerticalAlignment="Top" Width="256"  />
+    </Grid>
+</Window>
